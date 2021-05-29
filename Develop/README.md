@@ -42,6 +42,7 @@ In terminal:
 ## Usage
 
 * To test routes, please watch the linked instructional video!
+* https://drive.google.com/file/d/1M-4D0gyJXvLCPO-fGZ9nT5lY8mvf35Hc/view
 
 ## Built Using
 
