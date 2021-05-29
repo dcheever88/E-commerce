@@ -57,7 +57,7 @@ router.post('/', (req, res) => {
   tag_name: req.body.tag_name
 })
   .then(dbTagData => res.status(200).json(dbTagData))
-  .catch((err) => {
+  .catch(err => {
     console.log(err);
     res.status(500).json(err);
   });
@@ -101,7 +101,6 @@ router.delete('/:id', (req, res) => {
       console.log(err);
       res.status(500).json(err);
     });
-
 });
 
 module.exports = router;
